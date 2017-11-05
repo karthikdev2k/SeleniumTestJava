@@ -2,7 +2,7 @@ package example;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
@@ -25,7 +25,7 @@ public class NewTest
 	public void beforeTest()
 	{
 		System.setProperty("webdriver.gecko.driver","C:/temp/kar/geckodriver/geckodriver.exe");
-		driver = new FirefoxDriver();
+//		driver = new FirefoxDriver();
 	}
 
 	@AfterTest
